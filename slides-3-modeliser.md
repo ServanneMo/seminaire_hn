@@ -1,0 +1,1 @@
+masquent le rôle effectif de l’ordinateur. Rôle qui ne réside pas dans des opérations numériques mais bien dans une médiation épistémique, à savoir : être une machine modélisante qui intervient entre un sujet cognitif et le monde :
