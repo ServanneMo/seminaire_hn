@@ -1,6 +1,8 @@
 ## Séminaire méthodologique  
 
-## Humanités numériques
+### Humanités numériques
+
+![](img/def.gif)
 
 ===
 
@@ -97,7 +99,7 @@ La plus importante définition des humanités numériques est la première. "Le 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
 
-Un modèle épistémique désigne un semble de règles par lesquelles notre connaissance se construit, se transmet, et obtient une légitimité. Un modèle épistémique, c'est donc un modèle de connaissance : plus précisément, c'est la façon dont on conçoit ce qu'est la connaissance -- ce que le mot "connaissance" veut dire, le statut que l'on accorde à la connaissance, qui a le droit, qui est digne de cette connaissance, etc.
+Un modèle épistémique désigne un semble de règles par lesquelles notre connaissance se construit, se transmet, et obtient une légitimité. Un modèle épistémique, c'est donc un modèle de connaissance : plus précisément, c'est la façon dont on conçoit ce qu'est la connaissance (ce que le mot "connaissance" veut dire, le statut que l'on accorde à la connaissance, qui a le droit, qui est digne de cette connaissance, etc.).
 
 ===
 
@@ -268,6 +270,7 @@ Dans le champ des études littéraires, les humanités numériques couvrent des 
 - visualisation et analyse de corpus (*distant reading*, etc.)
 - collecte et constitution de corpus numériques
 - llm (modèles de langage)
+- réflexion théorique sur l'impact de la culture numérique
 
 ===
 
@@ -275,19 +278,33 @@ nos concepts : corpus, oeuvre, auteur
 
 introduction de nouvelles methodologies pour analyser et etudier les textes. 
 
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+### Le risque du technicisme
+Comment articuler pratique informatique et réflexion théorique et épistémologie ? Le malentendu des humanités numériques consiste à faire passer avant toute chose le résultat (d'une édition, d'une visualisation de données, bref, du calcul). Alors que le plus important réside dans le processus de modélisation informatique qui nous permet de problématiser nos objets. 
 
 
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+### Collaborer
+
+>Computer-assisted research in the humanities, by contrast to the Cartesian story and traditional humanities practices, has almost always been collaborative. This is due to the variety of skills needed to implement Digital Humanities projects. It is also linked to the relationship between the practices of interpretation and the development of the tools of interpretation, be they tools for analyzing text or digital editions. Anyone who has used tools forged by another person is in collaboration, even if one isn’t personally influencing the provider of the tools. The need to collaborate, though acknowledged in various ways, has been a professional hindrance, as anyone who submits a curriculum vitae for promotion listing nothing but co-authored papers knows.
+
+>Geoffrey Rockwell & Stefan Sinclair, Hemerneutica, 2016.
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
 ### Du texte à la donnée : une reconfiguration du concept de "corpus" en termes quantitatif
 
+>[On] découvre également un autre aspect resté longtemps inaperçu des humanités numériques : l’éclatement de l’idée de texte au profit de sa transformation, grâce et par l’informatique, en une sorte d’expérimentation dont le but est la validation d’une idée ou plus précisément d’une hypothèse. La fragmentation semble ainsi accompagner et nourrir la lecture numérique, ce qui invite à penser le statut spécifique des savoirs numérisés ou numériques. Cette tournure anthologique, présente dès les premiers pas des humanités numériques, est de nos jours encore plus visible, en dépit des efforts importants consacrés à la numérisation de masse visant à l’exhaustivité. Car la massification des données littéraires et textuelles et le recours à des méthodes quantitatives font des corpora de simples éléments, au sein d’études sur l’intertextualité et la citation, ou sur la formation de figures canoniques.
+
+>Milad Doueihi, "Quelles humanités numériques ?", Critique, 2015.
 
 ===
 
 Mise en donnée du monde, et de nos objets littéraires.
 
-Numerisation
+Via un premier processus de Numerisation
 
 Structurer le texte : baliser les elements editoriaux cad mettre en donnees, mais selon quel modele : modelisation est une question epistemologique
 
@@ -305,6 +322,8 @@ Plus de qualitatif : structuration tres fine dune oeuvre, -augmentation- du corp
 
 ### Le *distant reading* : une nouvelle herméneutique 
 
+![](img/df_other_mentions_chords.svg)
+
 ===
 
 zoom out: traitement des donnees a pour 
@@ -320,6 +339,8 @@ Moretti + Sinclair & Rockwell + Drucker
 
 ### Édition et éditorialisation des données : une reconfiguration de l'oeuvre
 
+![](img/enccre.png)
+
 ===
 
 Ouverture, processualité. 
@@ -332,9 +353,13 @@ Créer de la donnée, la relier.
 
 ### Nos données de recherche
 
+![](img/monzotero.png)
+
 ===
 
-
+Notre écriture est elle-même une série de données.
+Comment on écrit ? Comment on collecte de la donnée? 
+Quels biais dans nos données ? 
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
@@ -343,6 +368,7 @@ Créer de la donnée, la relier.
 Comment nos outils numériques font-il évoluer nos méthodologies de recherche, d'écriture, de lecture, d'annotation, ainsi que nos concepts littéraires ? 
 
 ===
+
 
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
