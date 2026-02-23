@@ -2,6 +2,8 @@
 
 (un mémoire, un cours...)
 
+![](img/ecrire.gif)
+
 ===
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
@@ -484,7 +486,7 @@ Cette stratification de l'écriture numérique, et sa dissimulation derrière de
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
-### Une éloignement progressif du hardware au profit du software...
+### Un éloignement progressif du hardware au profit du software...
 >Aujourd'hui, ces raisons économiques impérieuses ont fait définitivement disparaître la modestie d'Alan Turing qui, à l'âge de pierre de l'histoire des ordinateurs, préférait lire les productions des machines en nombre binaires que décimaux. Au contraire, ce que l'on nomme indûment la philosophie d'une communauté, elle-même appelée communauté informatique, met tout en oeuvre pour dissimuler le hardware derrière le logiciel, les signifiants électroniques derrière des interfaces homme-machine.
 
 >Friedrich Kittler, *Mode protégé*, 1991 (2015).
