@@ -1,4 +1,4 @@
-# Atelier : écrire avec Stylo
+## Atelier : écrire avec Stylo
 
 ![](img/stylo.png)
 
@@ -6,9 +6,9 @@
 
 ## Stylo 
 
-### un projet de développement d'outil... 
+### un projet technique... 
 
-### ...et un projet de recherche
+### ...qui a conduit à une problématique de recherche
 
 ===
 
@@ -229,4 +229,6 @@ Quand on écrit en numérique, on est déjà en train de produire une structure.
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
-=> Rv sur Stylo pour poursuivre l'atelier
+=> Rendez-vous sur Stylo pour poursuivre l'atelier
+
+![](img/qr-code-stylo.png)<!-- .element: style="width:200px" -->
