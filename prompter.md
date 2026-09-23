@@ -440,6 +440,43 @@ L’AI Act a donc été construit sur une approche « par les risques » : l’i
 
 L'AI act génère déjà bcp de critiques. 
 
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+### Stratégies de résistance (Albertine Meunier)
+
+>Ce qui me dérange le plus, ce n'est pas tant la technologie elle-même que la mythologie qu'on construit autour d'elle. Cette façon dont Musk se positionne comme un sauveur de l'humanité face aux dangers de l'IA, tout en développant sa propre version - comme si le problème n'était pas la technologie, mais simplement qui la contrôle. Quand je dis "I am a Grok con", j'affirme mon refus de participer à cette mascarade. Je refuse d'applaudir à chaque fois qu'Elon tweete une nouvelle promesse extravagante. Je refuse de croire qu'une IA développée à la hâte par une entreprise privée, avec des objectifs commerciaux évidents, représente vraiment l'avenir éthique de cette technologie.
+
+
+<!-- .element: style="width:45%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
+
+![](img/meunierGrokCon.png)<!-- .element: style="width:45%;float:right;margin-right:-1em;" -->
+
+
+===
+
+Dans le vaste univers des technologies, je suis ce qu'on pourrait appeler un "Grok con" - un jeu de mots qui fonctionne à plusieurs niveaux. En français, "con" désigne une personne stupide, un imbécile. En anglais, "con" signifie arnaque, escroquerie. Cette ambiguïté linguistique reflète parfaitement la situation.
+
+Suis-je stupide de douter? Ou est-ce que je vois l'arnaque là où d'autres sont aveuglés par l'admiration?
+
+Grok, la dernière création en date d'Elon Musk, s'inscrit parfaitement dans la lignée des promesses grandiloquentes de cet entrepreneur. Une IA prétendument révolutionnaire, différente des autres, plus "rebelle", plus "libre". Mais n'est-ce pas là le schéma habituel de Musk? Promettre la lune, récolter les investissements, et livrer bien moins que ce qui était annoncé?
+
+Cette nouvelle offensive marketing n'est qu'une tentative de plus pour détourner l'attention des échecs de Twitter/X, des problèmes chez Tesla, et des controverses qui suivent Musk comme son ombre. On pourrait dire que ceux qui y croient aveuglément sont les véritables "cons" (dans son sens français le plus cru) - crédules face à un bonimenteur technologique.
+
+Ce qui me dérange le plus, ce n'est pas tant la technologie elle-même que la mythologie qu'on construit autour d'elle. Cette façon dont Musk se positionne comme un sauveur de l'humanité face aux dangers de l'IA, tout en développant sa propre version - comme si le problème n'était pas la technologie, mais simplement qui la contrôle.
+
+Quand je dis "I am a Grok con", j'affirme mon refus de participer à cette mascarade. Je refuse d'applaudir à chaque fois qu'Elon tweete une nouvelle promesse extravagante. Je refuse de croire qu'une IA développée à la hâte par une entreprise privée, avec des objectifs commerciaux évidents, représente vraiment l'avenir éthique de cette technologie.
+
+L'IA pourrait être une force extraordinaire pour l'humanité, mais pas quand elle est conçue comme un jouet pour milliardaire en quête d'attention médiatique. Pas quand elle est développée dans la précipitation, sans les garde-fous éthiques nécessaires.
+
+Alors oui, je suis un Grok con - je vois l'arnaque derrière le marketing, le vide derrière les promesses, et je refuse de m'extasier devant ce énième coup de théâtre d'un homme qui a fait de l'hyperbole son modèle économique.
+
+écrit avec Claude.ai le 9 avril 2025 à 14h50
+
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+![](img/albertine-Meunier-history-IA.png)
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
