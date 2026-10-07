@@ -660,6 +660,71 @@ Modélisation : tout algorithme, tout programme informatique a une fonction pré
 
 Cela peut-être : ouvrir l'application, renseigner des critères de recherche préalable (et donc envisager les différentes variables possibles : est-ce qu'on est plutôt intéressés par les coordonnées géographiques, ou le physique, etc.)
 
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+### Modélisation 
+
+La modélisation désigne l'opération qui consiste à construire une représentation simplifiée et opératoire d'un objet, d'un phénomène ou d'un système, de façon à pouvoir l'étudier, le manipuler, le prévoir ou le reproduire. Le modèle n'est pas la chose elle-même : il en retient certains traits jugés pertinents et en écarte d'autres. C'est cette sélection, orientée par un but, qui fait sa force et sa limite.
+
+<!-- .element: style="width:45%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
+
+![](img/carte_du_monde.png)<!-- .element: style="width:45%;float:right;margin-right:-1em;" -->
+
+
+
+===
+
+Modélisation dans le cadre de la théorie des systèmes de connaissance : La modélisation désigne l'opération qui consiste à construire une représentation simplifiée et opératoire d'un objet, d'un phénomène ou d'un système, de façon à pouvoir l'étudier, le manipuler, le prévoir ou le reproduire. Le modèle n'est pas la chose elle-même : il en retient certains traits jugés pertinents et en écarte d'autres. C'est cette sélection, orientée par un but, qui fait sa force et sa limite.
+
+Jean-Louis Le Moigne, dans la lignée de Herbert Simon et de la « science des systèmes », en fait un pilier de l'épistémologie constructiviste : modéliser, c'est construire intentionnellement une représentation d'une situation complexe, plutôt que la « refléter ». La formule de Korzybski, « la carte n'est pas le territoire », résume le principe, et la remarque attribuée à George Box (« tous les modèles sont faux, mais certains sont utiles ») en tire la conséquence pragmatique.
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+Un même objet, différents modèles, des épistémologies totalement différentes
+
+![](img/carte_du_monde.png)<!-- .element: style="width:45%;float:left;margin-right:-1em;" -->
+
+![](img/carte_du_monde_Mac_arthur.png)<!-- .element: style="width:45%;float:right;margin-right:-1em;" -->
+
+
+===
+
+Modèle de Mac Arthur pour éviter la dichotomie Nord/Sud. 1979.
+
+Un même objet, différents modèles, des épistémologies totalement différentes... et donc différentes façons de l'habiter, le vivre, de reproduire des biais et des inégalités.
+
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+En informatique, la modélisation y prend un sens plus technique : il s'agit de formaliser un domaine de manière suffisamment explicite pour qu'un traitement automatique soit possible. On modélise des données, des processus, des connaissances (ontologies, graphes de connaissances) ou des documents (le balisage de la TEI est un cas typique en humanités numériques). Willard McCarty a fait de la modélisation le cœur de la méthode des humanités numériques : construire un modèle, c'est expliciter ses hypothèses, et l'écart entre le modèle et l'objet devient lui-même source de connaissance. **La modélisation informatique impose de choisir ce qui est calculable, donc de discrétiser, de catégoriser et de formaliser, ce qui n'est jamais neutre.**
+
+
+<!-- .element: style="width:45%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
+
+![](img/TEI-Le_CID.png)<!-- .element: style="width:45%;float:right;margin-right:-1em;" -->
+
+===
+
+En informatique, la modélisation y prend un sens plus technique : il s'agit de formaliser un domaine de manière suffisamment explicite pour qu'un traitement automatique soit possible. On modélise des données, des processus, des connaissances (ontologies, graphes de connaissances) ou des documents (le balisage de la TEI est un cas typique en humanités numériques). Willard McCarty a fait de la modélisation le cœur de la méthode des humanités numériques : construire un modèle, c'est expliciter ses hypothèses, et l'écart entre le modèle et l'objet devient lui-même source de connaissance. 
+
+
+La modélisation informatique impose de choisir ce qui est calculable, donc de discrétiser, de catégoriser et de formaliser, ce qui n'est jamais neutre.
+
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+Modélisation TEI des personnages du *Cid* de Corneille
+
+![](img/TEI-Le_CID.png)<!-- .element: style="width:600px" -->
+
+
+
+===
+
+Ici on voit les questions de recherche autour de l'étude des personnages.
+
 La modélisation consiste donc à décomposer un problème en une succession d'étape, de variables ou de scénarios possibles, afin de produire un pogramme fonctionnel pour remplir une tâche précise. 
 
 Ce qu'il faut comprendre, c'est que la modélisation implique :
@@ -668,6 +733,18 @@ Ce qu'il faut comprendre, c'est que la modélisation implique :
 
 Les nouvelles générations d'IA reposent sur un système que l'on va qualifier de probabiliste. C'est-à-dire que lorsque vous poser une question à un chatbot, la réponse ne se base pas sur un raisonnement modélisé en amont, mais sur la probabilité de la réponse. Cela ne veut pas dire que les IAG n'ont pas de modèle, mais que le modèle se trouve ailleurs, dans les LLM, les vastes modèles de données entraînées, des modèles de langage. La modélisation est moins évidente, moins contrôlée et plus difficile à maîtriser ou discuter.
 
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+#### Des modèles, des questions de recherche
+
+>« Computers are essentially modeling machines, not knowledge jukeboxes »
+
+(Mc Carthy, 2008 : chap. 19, p. 2).
+
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+La problématique des humanités numériques littéraires : peut-on modéliser la littérature, soit l'usage littéraire du langage ? Et si oui, comment ? Comment ces modélisations nous permettent-elles de produire une théorie du fait littéraire ?
 
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
@@ -680,3 +757,6 @@ Quelles sont les compétences que vous allez devoir mobiliser afin de réaliser 
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
+
+Parmi ces compétences/tâches, lesquelles seraient selon vous automatisables ? 
+Lesquelles souhaitez-vous automatiser ? Lesquelles ne souhaitez-vous surtout pas automatiser ? 
