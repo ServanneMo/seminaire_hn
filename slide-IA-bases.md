@@ -439,7 +439,7 @@ Les promesses des systèmes-experts n’ont pas été tenues, les entreprises qu
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
-## Troisième vague : le modèle connexionniste des années 2020
+## Troisième vague : une approche "connexionniste" (<2020)
 
 Contrairement à la méthode symbolique qui s'évertuait à vouloir reproduire l'intelligence humaine en faisant ingérer à la machine des programmes complexes, à partir d'une modélisation toujours insatisfaisante (car le propre de l'humanité est d'être imprévisible, pour le meilleur ou pour le pire), la méthode connexionniste consiste à **laisser la machine "apprendre tout seule" à partir d'un immense jeu de données**. Cet entraînement peut être "supervisé", ou réalisé en autonomie (_deep learning_). 
 
@@ -471,10 +471,12 @@ Cette méthode, dite par apprentissage, repose sur une technologie appelée les 
 <!-- .element: style="width:40%;float:left;margin-right:-1em;" -->
 
 
+
+
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
 
-#### Le modèle connexionniste provoque un changement de paradigme, en nous faisant passer d'une approche _modélisante_ à une approche statistique et probabiliste (fondées sur des modèles malgré tout : les llm)
+#### Le modèle connexionniste provoque un changement de paradigme, en nous faisant passer d'une approche _modélisante_ conçue par les informaticiens à une approche statistique et probabiliste à partir de modèles de données.
 
 
 ===
@@ -486,8 +488,6 @@ Cette méthode, dite par apprentissage, repose sur une technologie appelée les 
 si j'utilise chatGPT et que je lui dis pas content, il prend ça comme une donnée de renforcement.
 
 Bouton like = donnée de renforcement.
-
-embedding = vectorisation des mots. Positionnement d'un mot par rapport aux autres. Plus les mots sont proches, plus ils ont des chances d'avoir des significations similaires, ou de s'inscrire dans un même contexte sémantique (une même relation contextuelle). 
 
 un réseau de neurone est capable de trouver les relations + compresser tt.
 
@@ -501,9 +501,39 @@ Un générateur fondé sur un modèle place les mots les uns à la suite des aut
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
-### La vectorisation : vers une modélisation spatiale des termes (*vs* sens)
+Quelques mots clés pour comprendre... 
 
-Il ne s'agit pas de "comprendre" (c'est-à-dire de saisir l'articulation entre référent/signifié/signifiant), mais de positionner les mots dans un espace et d'évaluer des distances. Plus des mots sont proches, plus on peut dire qu'ils signifient quelque chose de similaire.
+![](img/CatCodingGIF.gif)
+
+===
+
+Je vais passer en revue quelques concepts clés, donc certains sont un peu complexes. 
+Attention ça devient technique, mais vous allez voir que c'est très utile. 
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+### La tokenisation
+
+La tokenisation est l'étape de prétraitement d'un modèle qui découpe un texte en unités élémentaires, les fameux "tokens". Les tokens ne sont ni des mots au sens linguistique, ni des lettres : ce sont des fragments dont la taille est déterminée statistiquement, par un algorithme (le plus courant s'appelle Byte-Pair Encoding, BPE) qui apprend, sur un très grand corpus, quelles suites de caractères reviennent le plus souvent ensemble.
+
+<!-- .element: style="font-size:1.5rem; text-align:justify" -->
+
+
+===
+
+Concrètement :
+
+un mot courant (« le », « chat », « dans ») correspond en général à un seul token ;
+un mot rare, un néologisme ou un mot composé peut être découpé en plusieurs tokens (par exemple « anticonstitutionnellement » pourrait devenir « anti » + « constitution » + « nelle » + « ment ») ;
+la ponctuation, les espaces, parfois même des fragments de mots dans une autre langue, deviennent chacun des tokens à part entière.
+
+C'est déjà à la tokenisation qu'un modèle commence à se biaiser : aujourd'hui, le découpage en tokens est appris sur des corpus très majoritairement anglophones à l'origine, ce qui fait que le français (et davantage encore les langues moins dotées numériquement) est souvent moins bien « tokenisé » — plus de tokens pour dire la même chose, donc un désavantage de coût et parfois de qualité. C'est un bon exemple concret d'un biais matériel du dispositif, avant même toute question de contenu ou de corpus d'entraînement.
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+### La vectorisation : vers une _mise en espace_ du sens
+
+La vectoraisation renvoie à l'étape de positionnement d'un mot par rapport aux autres. Plus les mots sont proches, plus ils ont des chances d'avoir des significations similaires, ou de s'inscrire dans un même contexte sémantique (une même relation contextuelle). Il ne s'agit pas de "comprendre" (c'est-à-dire de saisir l'articulation entre référent/signifié/signifiant), mais de positionner les mots dans un espace et d'évaluer des distances. Plus des mots sont proches, plus on peut dire qu'ils signifient quelque chose de similaire.
 
 <!-- .element: style="width:35%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
 
@@ -513,16 +543,87 @@ Il ne s'agit pas de "comprendre" (c'est-à-dire de saisir l'articulation entre r
 
 ===
 
-embedding = vectorisation des mots. Positionnement d'un mot par rapport aux autres. Plus les mots sont proches, plus ils ont des chances d'avoir des significations similaires, ou de s'inscrire dans un même contexte sémantique (une même relation contextuelle). 
+Chaque token (mot ou fragment de mot) est ensuite converti en un vecteur — une liste de plusieurs centaines ou milliers de nombres (l'embedding). Ce vecteur n'est pas une définition du mot : c'est une coordonnée dans un espace géométrique à très haute dimension.
 
-Là où le système expert partait de l'essence d'un concept, et pouvait être capable de remonter la chaîne de décision et de description (via l'algo notamment), le llm ne sait pas ce qu'est le concept. Il repart du terme (par exemple un chat), et le place dans un environnement spatial dans lequel il sera entouré d'autres termes. 
+Vectorisation = Positionnement d'un mot par rapport aux autres. Plus les mots sont proches, plus ils ont des chances d'avoir des significations similaires, ou de s'inscrire dans un même contexte sémantique (une même relation contextuelle). 
 
-Là où le système expert cherche à encoder le sens, le llm manipule de l'espace, de la dimension.
+Ce qui fait sens, dans ce dispositif, ce n'est pas la valeur d'un vecteur pris isolément, mais sa position relative aux autres vecteurs : deux mots dont les usages sont statistiquement proches dans le corpus d'entraînement (ils apparaissent dans des contextes similaires) se retrouvent proches dans cet espace. L'exemple canonique, devenu un peu un poncif du domaine mais pédagogiquement efficace : roi - homme + femme ≈ reine — une opération purement géométrique sur des vecteurs qui reproduit une relation sémantique.
 
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
+### Le passage par les transformers
+
+Architecture de réseau de neurones (2017) qui traite l'ensemble d'un texte simultanément plutôt que mot après mot, grâce à un mécanisme d'attention qui pondère les relations entre tous les tokens d'une séquence. C'est l'architecture qui sous-tend les LLM actuels (GPT, Claude, Gemini) et, sous des variantes, les modèles de génération d'image et de vidéo.
+
+<!-- .element: style="width:45%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
+
+![](img/ia-article-attention.png)<!-- .element: style="width:50%;float:right;margin-right:-1em;" -->
+
+
+===
+
+Un autre élément vient jouer un rôle majeur : le transformer. 
+
+FOrmalisé en 2017 par une équipe de Google (article fondateur : Attention Is All You Need), le transformer désigne une architecture de réseau de neurones qui sous-tend tous les grands modèles de langage actuels (GPT, Claude, Gemini...) ainsi que, sous des variantes, une partie des modèles de génération d'image et de vidéo.
+
+Son innovation centrale tient en un mécanisme appelé attention (ou self-attention).
+
+Avant les transformers, les modèles traitaient le texte de façon séquentielle, soit mot après mot, en gardant une mémoire qui s'affaiblissait à mesure qu'on s'éloignait du début de la phrase (un peu comme lire un texte en oubliant progressivement le début). C'est la limite des architectures antérieures.
+
+Le transformer, lui, regarde tous les mots d'un texte simultanément, et calcule pour chaque mot à quel point il doit « prêter attention » à chacun des autres mots du texte pour en interpréter le sens, y compris des mots très éloignés dans la phrase ou le paragraphe.
+
+Exemple simple : dans la phrase « Le chat que la voisine avait recueilli l'an dernier dort sur le canapé », pour bien interpréter le verbe dort, un modèle doit « se souvenir » que le sujet est le chat, malgré la longue incise entre les deux. Le mécanisme d'attention calcule directement ce lien, sans devoir « porter » l'information mot après mot à travers toute la phrase.
+
+Concrètement, chaque token est comparé à tous les autres, et le modèle apprend, à l'entraînement, à pondérer ces relations — certains mots comptent beaucoup pour interpréter tel autre mot, d'autres pas du tout.
+
+
+Une fois entraîné, un LLM fonctionne en générant un token à la fois : il prédit le mot (ou fragment de mot) le plus probable pour continuer la séquence, l'ajoute au texte, puis recommence en tenant compte de ce nouveau mot — et ainsi de suite jusqu'à la fin de la réponse. 
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+
+### Les LLM
+
+Les llm sont des modèles statistiques fondés sur l'architecture transformer, entraînés sur un très vaste corpus de textes pour prédire, token après token, la suite la plus probable d'une séquence. Cet entraînement lui permet de générer du texte, de répondre à des questions ou de reformuler un contenu, sans en comprendre le sens, mais en réalisant une extrapolation statistique à partir des régularités du corpus d'entraînement.
+
+<!-- .element: style="width:38%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
+
+![](img/The-evolutionary-tree-of-modern-LLMs-traces-the-development-of-language-models-in-recent.png)<!-- .element: style="width:65%;float:right;margin-right:-1em;" -->
+
+===
+
+Le LLM, qui nous intéresse le plus ici (def à retenir), désigne donc le modèle statistique qui sera fondé sur l'architecture transformer, et entraîné sur un très vaste corpus de textes pour prédire, token après token, la suite la plus probable d'une séquence. Cet entraînement lui permet de générer du texte, de répondre à des questions ou de reformuler un contenu, sans qu'il y ait à proprement parler compréhension du sens — seulement extrapolation statistique à partir des régularités du corpus d'entraînement.
+
+Un LLM (Large Language Model, grand modèle de langage) est le résultat de l'entraînement d'une architecture transformer sur un corpus de texte massif. Ce n'est donc pas un objet à part entière au sens où on l'imagine souvent — ce n'est pas un programme qui contient des règles ou une base de connaissances structurée — mais un ensemble de paramètres (des milliards de valeurs numériques, les fameux poids du réseau) qui ont été ajustés progressivement, pendant l'entraînement, pour qu'à chaque étape le modèle apprenne à mieux prédire le token suivant d'une séquence.
+
+
+Il existe plein de LLM, avec chacun leur système de tokenisation, leur corpus de texte, ainsi que leur architecture/transformers. 
+
+Un LLM n'est donc pas neutre, il est rempli de biais.
+
+<!--
+Comment on y arrive concrètement
+Tokenisation : le texte du corpus d'entraînement est découpé en tokens.
+Vectorisation : chaque token est projeté dans l'espace vectoriel — sa position initiale, qui sera ensuite recalculée dynamiquement selon le contexte par l'attention.
+Passage dans le transformer : les couches successives du transformer (chacune combinant attention et petits réseaux de neurones classiques) transforment progressivement ces représentations vectorielles.
+Prédiction et correction : à chaque exemple d'entraînement, le modèle essaie de prédire le token suivant ; l'écart entre sa prédiction et le token réellement observé dans le corpus sert à corriger légèrement ses paramètres (rétropropagation du gradient). Répété des milliards de fois sur un corpus de plusieurs centaines de milliards ou milliers de milliards de tokens, ce processus fait émerger des régularités linguistiques, factuelles, stylistiques — sans qu'aucune règle grammaticale ou encyclopédique n'ait été écrite explicitement par un humain.
+
+--->
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
 En conséquence, lorsque vous utilisez une IAG, vous lui posez une question ou vous lui donnez une instruction en vous inscrivant dans un régime de signification. La réponse de l'IAG, en revanche, s'appuiera sur des probabilités, soit sur un calcul de proximité entre des objets vectorisés.  
+
+<!-- .element: style="width:45%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
+
+**Le modèle ne « comprend » rien au sens humain** : il apprend uniquement des corrélations statistiques entre tokens à partir d'un immense corpus d'entraînement. Le transformer produit la suite de mots la plus probable compte tenu du contexte, ce qui n'est ni un jugement de goût ni une intention, mais une extrapolation.
+
+<!-- .element: style="width:45%;float:right;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
