@@ -1,11 +1,179 @@
 
-## La problématique des outils fondés sur les IAG
+## Sous le nom "IA", qui parle ? 
 
-Et si le problème n'était pas l'IAG, mais plutôt les entreprises qui produisent aujourd'hui les IAG les plus utilisées ?
+![](img/ereChatGpt.png)<!-- .element: style="width:600px" -->
+
+
+===
+
+Les séances précédentes portaient le titre "de quoi l'IA est-elle le nom ?" : à la fois de rien de précis, et de tout un ensemble de théories, de technologies, de tentatives de modélisations de certaines tâches qui renvoient à des définitions parfois contradictoire de l'intelligence humaine. 
+
+Il y a pire que cette tendance à parler d'IA de manière généraliste, sans préciser ni comprendre ce qu'elle englobe : il y a également la tendance à utiliser la synecdoque, c'est-à-dire une partie infime d'un phénomène pour en désigner le tout. 
+
+Dans le champ des IAgénératives, c'est ChatGPT qui joue le rôle de cette synecdote. 
+
+J'ai lancé une recherche dans GoogleScholar, moteur de recherche arrimé à une BDD d'articles scientifiques. J'y ai vu émerger à plusieurs reprise le terme d'ère de chatGPT. 
+J'ai déjà un pb avec l'ère de l'IA : le terme "ère" suppose une rupture épistémologique majeure, que l’histoire de l’IA a tendance à relativiser : ça fait 70 ans qu'on fait des IA. Turing, Dartmouth, les systèmes experts et Deep Blue ont chacun participé à cette construction : et je n'ai fait là que sélectionner des grands moments. Mon histoire n'est pas exhaustive, elle est sélective. Des travaux sur l’histoire de l’IA montrent que son essor, des années 1950 au début des années 1970, s’est accompagné de la construction d’un puissant mythe culturel, celui de la machine pensante, lisible avec les notions d’« imaginaire » (Flichy) ou de « mythes modernes » (Mosco). La sidération actuelle tient en partie au fantasme d’une IA qui serait une nouveauté absolue, sans histoire ni précédent, ce qui est faux. On n'est pas entrés dans une ère de l'IA, ou alors on y est déjà depuis un demi siècle au moins. 
+La notion d'ère, lorsqu'elle est nommée d’après une technologie, est totalement technodéterministe : elle attribue le changement social et sociétal à l’outil, alors qu’il passe aussi par des choix économiques, de droit et d’organisation du travail.
+Enfin, la notion d'ère homogénéise la réalité : elle suggère un état unique du monde, des pratiques, des usages, des outils. 
+
+Avec l'expression "à l'ère de ChatGPT", on va vers qq chose de pire encore. Nous seulement on homogénéise le réel, mais en plus, on associe un état du monde, une époque à un produit et à une marque. 
+Le fait que ce soit ChatGPT ne relève pas du hasard. Cet outil de l'entreprise OpenAI, un chatbot conversationnel sorti fin novembre 2022, a permis au grand public d'accéder plus facilement au IA génératives, grâce à la mise en place d'une interface conversationnelle. Parler d’« ère de ChatGPT » désigne donc, à peu près, l’ère de l’ouverture au grand public.
+
+Le problème, c'est que cette expression crée un phénomène d'invisibilisation : sire "l'ère de l'IA ou de ChatGPT" invisibilise 1) les IAG qui ne sont pas conversationnelles et tous les autres outils développés par d'autres entreprises qu'OpenAI. La reconnaissance de manuscrits, les modèles ouverts, les produits concurrents, les usages en bibliothèque ou en édition disparaissent derrière un seul nom.
+
+On voit bien ici que la question n’est plus seulement ce qu’est l’IA (de quoi l'IA est-elle le nom), mais qui l’incarne concrètement: sous le nom d'IA, qui parle ? Aujourd'hui, c'est sans doute cela qui est le plus problématique : la question de la gouvernance de l'IA, mais aussi de sa privatisation. 
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
-### ChatGPT, l'IA générative de texte d'OpenAI
+### Une nouvelle concentration
+
+>Les acteurs principaux du secteur des agents d’IA sont OpenAI, Google et Anthropic, qui représentaient à eux trois plus de 84 % du secteur mondial au mois de mai 2026. À leurs côtés, on retrouve des entreprises qui sont soit déjà actives et intégrées verticalement, comme Amazon, Microsoft ou Nvidia, soit de nouvelles entreprises spécialisées de l’IA, comme Mistral AI, Perplexity AI ou xAI. 
+
+>Avis 26-A-05 de l'Autorité de la concurrence (juillet 2026)
+
+===
+
+L’Autorité de la concurrence, dans un avis rendu le 17 juillet 2026 (avis 26-A-05) relève que OpenAI, Google et Anthropic représentaient à eux trois plus de 84 % du secteur mondial des agents d’IA en mai 2026. 
+
+>Les acteurs principaux du secteur des agents d’IA sont OpenAI, Google et Anthropic, qui représentaient à eux trois plus de 84 % du secteur mondial au mois de mai 2026. À leurs côtés, on retrouve des entreprises qui sont soit déjà actives et intégrées verticalement, comme Amazon, Microsoft ou Nvidia, soit de nouvelles entreprises spécialisées de l’IA, comme Mistral AI, Perplexity AI ou xAI. 
+
+https://www.autoritedelaconcurrence.fr/fr/avis/relatif-au-fonctionnement-concurrentiel-du-secteur-des-agents-dintelligence-artificielle
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+>Initialement conçus comme de simples agents conversationnels, les outils d’IA générative se sont progressivement transformés en agents d’IA. Ces derniers n’exécutent plus simplement des tâches isolées mais sont désormais capables de raisonner, de planifier et d’orchestrer plusieurs tâches en coordonnant d’autres agents d’IA dans une relative autonomie. Les termes « IA agentique » et « agents d’IA » ont été employés pour caractériser ces nouvelles capacités. Selon la Commission européenne, les agents d’IA sont « des applications logicielles conçues pour percevoir et interagir avec un environnement virtuel. Ils fonctionnent de manière autonome, c’est-à-dire sans être directement contrôlés par un humain ».
+
+>Avis 26-A-05 de l'Autorité de la concurrence (juillet 2026)
+
+
+===
+
+
+Elle note aussi que des outils conçus comme de simples agents conversationnels se sont progressivement transformés en agents d’IA, et elle identifie un risque de « plateformisation ». Ce risque tient au fait que les éditeurs pourraient sélectionner les sources, classer les offres et déterminer les services visibles, avec des risques d’autopréférence ou d’influence liée à des partenariats commerciaux et à la publicité. L’avis est consultatif, et il ne crée pas d’obligation directe.
+
+
+https://www.autoritedelaconcurrence.fr/fr/avis/relatif-au-fonctionnement-concurrentiel-du-secteur-des-agents-dintelligence-artificielle
+
+
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+Et si le problème n'était pas l'"IA", mais plutôt les entreprises qui produisent aujourd'hui les LLM et les outils dans lesquels ces LLM sont implémentés ?
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+
+Dans le cadre de vos navigations et de vos recheches, vous pouvez croiser et être amenés à utiliser plusieurs outils basés sur des LLM. Ces outils ont des fonctions différentes, gèrent des LLM plus ou moins spécialisés, et invisibilisent plus ou moins ces derniers.
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+#### Les interfaces conversationnelles (chatbots généralistes)
+
+Les chatbots conversationnels sont des interfaces dans lequel l'usager peut interroger un LLM en langage naturel : ChatGPT, Claude, Gemini, Mistral Le Chat, etc.
+
+<!-- .element: style="width:45%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
+
+![](img/gpt-prompt-crea.gif)<!-- .element: style="width:45%;float:right;margin-right:-1em;" -->
+
+
+===
+
+1. Les interfaces conversationnelles (chatbots généralistes)
+
+Les chatbots conversationnels sont des interfaces dans lequel l'usager peut interroger un LLM en langage naturel : ChatGPT, Claude, Gemini, Mistral Le Chat, etc.
+ Cette catégorie est sans doute la plus connue, et celle que vous avez déjà testé ou que vous utilisez régulièrement. 
+
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+#### Les systèmes à récupération d’information (RAG)
+
+Dans un outil RAG, le LLM est couplé à une base documentaire (un texte que vous avez soumis au ChatBot, des archives, une documentation interne) dans laquelle il va chercher avant de répondre. Le RAG garde une mémoire de cette base documentaire. La plupart des chatbots documentaires intègrent aujourd'hui une fonction RAG, même minimale. Un RAG grand public : NotebookLM.
+
+
+<!-- .element: style="width:45%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
+
+![](img/notebookLM.png)<!-- .element: style="width:45%;float:right;margin-right:-1em;" -->
+
+
+
+
+===
+
+Dans un outil RAG, le LLM est couplé à une base documentaire (un texte que vous avez soumis au ChatBot, des archives, une documentation interne) dans laquelle il va chercher avant de répondre. Le RAG garde une mémoire de cette base documentaire. La plupart des chatbots documentaires intègrent aujourd'hui une fonction RAG, même minimale. Un RAG grand public : NotebookLM.
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+#### Les agents
+
+Un agent IA désigne un programme autonome dans lequel le LLM est utilisé pour analyser un objectif, utiliser des outils (navigateurs, code, base de données) et enchaîner les actions par lui-même (naviguer sur le Web pour chercher de l'information, consulter ou une base de données, écrire du code) pour accomplir une tâche sans intervention humaine à chaque étape. Exemple : appel commerciaux, SAV, Agent's room
+
+<!-- .element: style="width:45%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
+
+![](img/agentsroom.png)<!-- .element: style="width:45%;float:right;margin-right:-1em;" -->
+
+
+
+===
+
+Dans un agent, Le LLM planifie et enchaîne des actions avec des outils (navigation web, exécution de code, accès à des fichiers, envoi de messages). On les trouve dans les agents de navigation, les agents de programmation et les assistants bureautiques « délégataires ».
+
+
+Exemple : les agent de support client utlisés par les service client de certaines entreprises pour répondre aux questions fréquentes, consulter les commandes et résoudre les problèmes de base.
+
+Ou encore les appels téléphoniques que vous recevez pour vous vendre des services ou des produits : ici les Agents utilisent aussi des outils vocaux, et peuvent entretenir avec nous des conversation. 
+
+Projet agentsroom : Le système sépare deux types d’agents : des agents de planification, qui étoffent les composantes du récit sans l’écrire, et des agents rédacteurs. Un orchestrateur central décompose la tâche et distribue les sous-tâches.
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+#### Les assistants intégrés à un logiciel existant (copilotes)
+
+Le LLM est greffé à un outil du quotidien : traitement de texte, tableur, messagerie, éditeur de code, outils de PAO ou de montage. L’utilisateur ne « va » pas vers l’IA : elle est dans son environnement de travail. Exemple: résumé automatique de la conversation dans votre logiciel de messagerie. 
+
+<!-- .element: style="width:45%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
+
+![](img/copilot-canva.png)<!-- .element: style="width:45%;float:right;margin-right:-1em;" -->
+
+
+
+===
+
+4. Les assistants intégrés à un logiciel existant (copilotes)
+
+Le LLM est greffé à un outil du quotidien : traitement de texte, tableur, messagerie, éditeur de code, outils de PAO ou de montage. L’utilisateur ne « va » pas vers l’IA : elle est dans son environnement de travail. Cette catégorie est à mon sens la plus massive en usage réel, et la moins visible.
+
+Ici sur canva, je propose des choses, et l'outil m'assiste sur des éléments de design (pour lesquels je n'ai aucune compétence). Même chose : je peux coder sans savoir coder. 
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+#### Les outils spécialisés par tâche (LLM « emballé »)
+
+De nombreuses applications reposent sur des LLM qui en sont en quelque sorte le moteur invisible : logiciels de traduction (Deepl), correction et réécriture, résumé, **transcription** (HTR, par exemple), etc.
+
+<!-- .element: style="width:45%;float:left;margin-left:-1em; font-size:1.4rem; text-align:justify" -->
+
+
+![](img/HTRomance.jpg)<!-- .element: style="width:45%;float:right;margin-right:-1em;" -->
+
+
+
+===
+
+5. Les outils spécialisés par tâche (LLM « emballé »)
+
+Des applications verticales dont le LLM est le moteur invisible : traduction, correction et réécriture, résumé, transcription et sous-titrage, génération de scripts ou de synopsis, outils d’aide à l’écriture de fiction. Pour l’édition, ce sont les plus directement concernés (relecture, aide à la rédaction de quatrièmes de couverture, métadonnées).
+
+Ici un outil HTR : transcription automatisée
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+### Focus sur ChatGPT, l'IA générative de texte d'OpenAI
 
 
 ![](img/gpt-prompt-crea.gif)
@@ -60,7 +228,13 @@ Avec ChatGPT, OpenAI a choisi de construire une IA qui **invisibilise** la techn
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y0fzk6oRzPM?si=Nq5h7rIPTkpcktNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315"
+  src="https://www.youtube.com/embed/y0fzk6oRzPM?si=WS2BJBRO9ocYG9Qz&autoplay=1&mute=1"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
 
 ===
 
@@ -98,7 +272,7 @@ le tout premier chatbot psychothérapeute (1966) conçu par Joseph Weizenbaum. V
 
 
 §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
-<!-- .slide: data-background-image="img/supafriends-1.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/chat-bot-raphael.png" data-background-size="contain" -->
 
 
 ===
@@ -299,5 +473,14 @@ Livre = Sociologie du numérique, 2019, et pas celui cité.
 ===
 
 ­une explication conversationnelle remplacera une simple liste de résultats pour celui qui depuis longtemps déjà se positionne et se veut davantage un moteur de réponses qu’un outil de recherche.
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+Utiliser des outils fondés sur des LLM pour la recherche ? 
+
+- Attention aux outils grand public !
+- Recherche expérimentale : intégrer la réflexion critique et méthodologique sur le LLM à sa recherche = renouer avec les Humanités numériques
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 
 
